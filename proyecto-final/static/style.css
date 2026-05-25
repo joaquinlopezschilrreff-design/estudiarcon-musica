@@ -1,0 +1,53 @@
+body{
+    background-color: #2F3E7F;
+    text-align: center;
+}
+
+h1{
+    color: #697FD6;
+}
+
+button{
+    background-color: #697FD6;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px; 
+
+    padding: 10px 20px;
+
+    font-size: 16px;
+}
+
+p{
+    color: #274de4;
+}
+
+div{
+    width: 200px;
+    margin:auto;
+    background-color: #0e1016;
+    border-radius: 10%;
+    padding: 40px 40px;
+}
+
+input{
+    color: #2a4de6;
+    width: 200px;
+    height: 30px;
+    padding: 10px 10px;
+    border-radius: 10%;
+
+}
+
+a {
+    margin-top: 20px;
+    display: block;
+}
+
+form { 
+    display: block;
+    margin-top: 10px;
+    color: #7898f8; 
+}

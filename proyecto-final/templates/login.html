@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Login</title>
+</head>
+
+<body>
+    <div>
+        <h1>Bienvenido a StudyMood</h1>
+        <p>Para empezar inicia sesion</p>
+        <form method="POST">Inicio de sesion
+            <input name= "correo"type="text" placeholder="Correo Electronico">
+            <input name= "password" type="password" placeholder="Contraseña">
+            <button>Iniciar sesión</button>
+            <a href="/register">No tengo cuenta </a>
+        </form>
+    </div>
+</body>
+</html>  
